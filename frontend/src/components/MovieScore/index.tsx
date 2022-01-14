@@ -1,4 +1,4 @@
-import MovieStars from "components/MovieStars";
+import MovieStars  from "components/MovieStars";
 import './styles.css';
 
 function MovieScore() {
@@ -13,7 +13,6 @@ function MovieScore() {
             <p className="dsmovie-score-count">{count} avaliações</p>
         </div>
     );
-
 }
 
 export default MovieScore;

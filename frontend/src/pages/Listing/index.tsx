@@ -1,11 +1,8 @@
-
-
 import MovieCard from "components/MovieCard";
 import Pagination from "components/Pagination";
 
 
 function Listing() {
-
     return (
         <>
             <Pagination />
@@ -28,9 +25,10 @@ function Listing() {
                         <MovieCard />
                     </div>
                 </div>
+                
             </div>
         </>
     );
-
 }
+
 export default Listing;

@@ -27,6 +27,4 @@ public class MovieDTO {
 		image = movie.getImage();
 	}
 	
-	
-
 }
